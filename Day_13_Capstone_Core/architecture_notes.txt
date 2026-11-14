@@ -1,0 +1,11 @@
+Assignment 50 & 51: Capstone Planning & User Flow
+Project Idea: Task Master (Persistent To-Do App)
+Core Features:
+1. Add, Edit, Delete tasks.
+2. Mark as Complete.
+3. Persist data using localStorage.
+
+Architecture Notes (MVC Pattern):
+- Model: Handles data logic and localStorage interactions.
+- View: Handles DOM rendering safely (XSS protection).
+- Controller: Acts as the bridge between Model and View.

@@ -1,0 +1,9 @@
+Assignment 21: Scope and Hoisting Prediction Worksheet
+
+1. Hoisting Explained:
+Variables declared with `var` are hoisted to the top of their functional scope but initialized as `undefined`. 
+Variables declared with `let` and `const` are hoisted as well, but they enter the "Temporal Dead Zone" (TDZ) and will throw a ReferenceError if accessed before the initialization line.
+
+2. Scope Differences:
+- `var` is function-scoped. If declared in a block (like an if statement), it leaks to the outer function.
+- `let` and `const` are strictly block-scoped. This is much safer and aligns with block scoping rules found in C and Java.

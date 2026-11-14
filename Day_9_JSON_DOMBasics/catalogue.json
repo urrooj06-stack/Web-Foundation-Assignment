@@ -1,0 +1,14 @@
+[
+    {
+        "id": 101,
+        "title": "Clean Architecture",
+        "author": "Robert C. Martin",
+        "price": 1200
+    },
+    {
+        "id": 102,
+        "title": "Design Patterns",
+        "author": "Gang of Four",
+        "price": 1500
+    }
+]

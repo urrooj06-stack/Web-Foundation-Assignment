@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day 10: Safe DOM & Events</title>
+    <style>
+        body { font-family: sans-serif; padding: 2rem; }
+        .card { border: 1px solid #ccc; padding: 1rem; margin: 1rem 0; border-radius: 8px; }
+        .active-state { border-color: #2563eb; background-color: #eff6ff; }
+    </style>
+</head>
+<body>
+    <h2>Profile Card Renderer (XSS Safe)</h2>
+    <div id="card-container"></div>
+    <button id="toggle-state-btn">Toggle Active State</button>
+    
+    <script src="domEvents.js"></script>
+</body>
+</html>

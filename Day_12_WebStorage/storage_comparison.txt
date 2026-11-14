@@ -1,0 +1,11 @@
+Assignment 45: Web Storage Comparison
+
+1. localStorage:
+- Persistence: Data persists even after the browser window is closed. It remains until explicitly cleared by the application code or the user.
+- Scope: Shared across all tabs and windows with the same origin (domain, protocol, and port).
+- Use Case: Saving user preferences (like dark mode), persistent shopping carts, or caching non-sensitive application data.
+
+2. sessionStorage:
+- Persistence: Data is cleared as soon as the specific page session ends (when the browser tab is closed).
+- Scope: Limited to the specific tab. Even if the same URL is opened in a new tab, it gets a fresh sessionStorage.
+- Use Case: Storing sensitive form data temporarily during a multi-step checkout process.

@@ -1,0 +1,4 @@
+Issue ID,Component,Cause,Fix Applied,Status
+1,Task Input,Empty spaces allowed,Added trim() and strict length check in Model,Verified
+2,List Render,XSS vulnerability via innerHTML,Replaced innerHTML with textContent,Verified
+3,Storage,App crashes in incognito mode,Added try-catch block for localStorage access,Verified
